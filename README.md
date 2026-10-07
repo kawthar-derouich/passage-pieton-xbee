@@ -103,14 +103,6 @@ passage-pieton-xbee/
 └── README.md
 ```
 
-## Pistes d'amélioration
-
-- Vider le tampon de réception du coordinateur pendant une séquence, pour qu'un appui fait pendant la traversée ne relance pas un nouveau cycle juste après.
-- Remplacer les `delay()` du coordinateur par une gestion non bloquante.
-- Supprimer l'affichage de test `Serial.println("BOUTON PRESSE")` du nœud 2, car le port série n'y est pas initialisé.
-- Ajouter un accusé de réception et une détection de perte de liaison entre les nœuds.
-- Ajouter un buzzer pour signaler la traversée aux personnes malvoyantes.
-
 ## Auteur
 
 Kawthar Derouich
